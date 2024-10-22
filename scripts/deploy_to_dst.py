@@ -13,8 +13,10 @@ GREEN = '\033[92m'
 BLUE = '\033[94m'
 RESET = '\033[0m'
 
+def read_entris(path: str) -> list:
+    return [entry for entry in os.listdir(path)]
 def read_folders(path: str) -> list:
-    return [entry for entry in os.listdir(path) if os.path.isdir(os.path.join(path, entry))]
+    return [entry for entry in read_entris(path) if os.path.isdir(os.path.join(path, entry))]
 def create_symlink(src_path: str, dst_path: str):
     os.system(f'ln -sf {src_path} {dst_path}')
 def create_copy(src_path: str, dst_path: str):
@@ -31,8 +33,10 @@ def get_dst_by(src_path: str) -> tuple[str, str]:
     return dst, deploy
 
 def deploy_sub_enties(src_parent_path: str, dst_parent_path: str, deploy_ops: str) -> None:
-    sub_srcs = [os.path.join(src_parent_path, entry) for entry in read_folders(src_parent_path)]
-    sub_dsts = [os.path.join(dst_parent_path, entry) for entry in read_folders(src_parent_path)]
+    sub_srcs = [os.path.join(src_parent_path, entry) for entry in read_entris(src_parent_path)]
+    sub_srcs.remove(os.path.join(src_parent_path, CONFIG_NAME))
+    sub_dsts = [os.path.join(dst_parent_path, entry) for entry in read_entris(src_parent_path)]
+    sub_dsts.remove(os.path.join(dst_parent_path, CONFIG_NAME))
     for src, dst in zip(sub_srcs, sub_dsts):
         if os.path.exists(dst) and not os.path.islink(dst):
             print(f'{BLUE}Backup {dst}{RESET}')
