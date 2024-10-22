@@ -54,7 +54,7 @@ def main():
     srcs = get_all_srcs()
     for src in srcs:
         dst, deploy_ops = get_dst_by(src)
-        print(f"{GREEN}Entering {src}{RESET}")
+        print(f"{GREEN}Deploying {src}{RESET}")
         deploy_sub_enties(src, dst, deploy_ops)
 
 if __name__ == '__main__':
