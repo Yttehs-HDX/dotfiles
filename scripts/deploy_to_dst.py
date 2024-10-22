@@ -17,8 +17,8 @@ def read_entris(path: str) -> list:
     return [entry for entry in os.listdir(path)]
 def read_folders(path: str) -> list:
     return [entry for entry in read_entris(path) if os.path.isdir(os.path.join(path, entry))]
-def create_symlink(src_path: str, dst_path: str):
-    os.system(f'ln -sf {src_path} {dst_path}')
+def create_link(src_path: str, dst_path: str):
+    os.system(f'ln -s {src_path} {dst_path}')
 def create_copy(src_path: str, dst_path: str):
     os.system(f'cp -r {src_path} {dst_path}')
 
@@ -38,7 +38,9 @@ def deploy_sub_enties(src_parent_path: str, dst_parent_path: str, deploy_ops: st
     sub_dsts = [os.path.join(dst_parent_path, entry) for entry in read_entris(src_parent_path)]
     sub_dsts.remove(os.path.join(dst_parent_path, CONFIG_NAME))
     for src, dst in zip(sub_srcs, sub_dsts):
-        if os.path.exists(dst) and not os.path.islink(dst):
+        if os.path.islink(dst):
+            os.system(f'rm {dst}')
+        if os.path.exists(dst):
             print(f'{BLUE}Backup {dst}{RESET}')
             os.system(f'mv {dst} {dst}.bak')
         if deploy_ops == 'copy':
@@ -46,7 +48,7 @@ def deploy_sub_enties(src_parent_path: str, dst_parent_path: str, deploy_ops: st
             create_copy(src, dst)
         elif deploy_ops == 'link':
             print(f'{BLUE}link {src} -> {dst}{RESET}')
-            create_symlink(src, dst)
+            create_link(src, dst)
 
 def main():
     srcs = get_all_srcs()
