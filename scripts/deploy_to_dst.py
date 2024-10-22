@@ -26,7 +26,7 @@ def get_all_srcs() -> list:
 def get_dst_by(src_path: str) -> tuple[str, str]:
     with open(os.path.join(src_path, CONFIG_NAME), 'r') as config:
         config = toml.load(config)
-        dst: str = config['destination']['dst'].replace('~', HOME)
+        dst: str = config['destination']['dir'].replace('~', HOME)
         deploy: str = config['destination']['deploy']
     return dst, deploy
 
