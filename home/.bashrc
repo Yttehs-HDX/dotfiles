@@ -106,4 +106,4 @@ export PATH=$PATH:~/.cargo/bin
 export PATH=$PATH:~/Android/Sdk/emulator
 export PATH=$PATH:~/.dotnet/tools
 
-source "$HOME"/Project/.config/env
+source "$HOME"/.local/bin/env
