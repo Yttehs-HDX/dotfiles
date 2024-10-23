@@ -1,0 +1,11 @@
+[Icons]
+Theme=Tela-circle-dracula-dark
+CursorTheme=catppuccino-macchiato-lavender-cursors
+
+[KDE]
+LookAndFeelPackage=Catppuccin-Macchiato
+ShowDeleteCommand=false
+
+[PreviewSettings]
+EnableRemoteFolderThumbnail=false
+MaximumRemoteSize=0

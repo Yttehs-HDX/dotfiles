@@ -1,0 +1,3 @@
+[destination]
+dir = "~/.config"
+deploy = "link"

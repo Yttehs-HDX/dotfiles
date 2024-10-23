@@ -1,0 +1,3 @@
+[destination]
+dir = "~/.local/share"
+deploy = "link"
