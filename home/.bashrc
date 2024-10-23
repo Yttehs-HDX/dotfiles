@@ -20,6 +20,9 @@ alias v='vi'
 alias vi='vim'
 alias vim='nvim'
 
+# bat
+export PAGER='bat'
+
 # language
 export LANG=en_US.UTF-8
 export LANGUAGE=en_US
