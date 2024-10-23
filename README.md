@@ -1,6 +1,8 @@
 # Dotfiles
 
-Dotfiles in ArchLinux
+Dotfiles in ArchLinux (Hyprland)
+
+![hyprland](Screenshot.png)
 
 ## Usage
 
