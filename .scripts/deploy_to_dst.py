@@ -7,7 +7,7 @@ HOME = os.getenv('HOME')
 
 CONFIG_NAME = 'config.toml'
 DOTFILES_PATH = f'{HOME}/.dotfiles'
-IGNORED_ENTRIES = ['.git', 'scripts']
+IGNORED_ENTRIES = ['.git', '.scripts']
 
 GREEN = '\033[92m'
 BLUE = '\033[94m'
