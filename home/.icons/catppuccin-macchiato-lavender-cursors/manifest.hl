@@ -1,4 +1,0 @@
-name = catppuccin-macchiato-lavender
-description = based on Volantes Cursors
-version = "v0.4.0" # x-release-please-version
-cursors_directory = hyprcursors
