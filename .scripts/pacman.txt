@@ -30,4 +30,3 @@ ranger
 swaync
 tmux
 nwg-look
-tela-circle-icon-theme-all-git

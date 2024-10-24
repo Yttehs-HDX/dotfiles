@@ -1,2 +1,3 @@
 cli-visualizer
+tela-circle-icon-theme-all-git
 catppuccin-gtk-theme-macchiato
