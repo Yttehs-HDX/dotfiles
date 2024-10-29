@@ -19,7 +19,7 @@ Dotfiles in ArchLinux (Hyprland)
 0. Install dependencies
 
 ```bash
-sudo pacman install git python-toml
+sudo pacman -S git python-toml
 ```
 
 1. Clone the repo
