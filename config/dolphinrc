@@ -1,0 +1,27 @@
+[General]
+RememberOpenedTabs=false
+ShowSpaceInfo=false
+ShowStatusBar=false
+ShowZoomSlider=false
+Version=202
+ViewPropsTimestamp=2024,11,10,11,49,37.99
+
+[KFileDialog Settings]
+Places Icons Auto-resize=false
+Places Icons Static Size=22
+
+[MainWindow]
+MenuBar=Disabled
+ToolBarsMovable=Disabled
+
+[MainWindow][Toolbar mainToolBar]
+ToolButtonStyle=IconOnly
+
+[PreviewSettings]
+Plugins=exrthumbnail,appimagethumbnail,audiothumbnail,comicbookthumbnail,directorythumbnail,ebookthumbnail,svgthumbnail,windowsexethumbnail,windowsimagethumbnail,imagethumbnail,kraorathumbnail,cursorthumbnail,jpegthumbnail,opendocumentthumbnail,djvuthumbnail,avif,gdk-pixbuf-thumbnailer,heif,jxl
+
+[Toolbar mainToolBar]
+ToolButtonStyle=IconOnly
+
+[ViewPropertiesDialog]
+1600x1000 screen: Window-Maximized=true
