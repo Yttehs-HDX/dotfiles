@@ -22,14 +22,18 @@
 		"on-click": "activate",
 		"format-icons": {
 			"1": "  ",
-			"2": " 󰅶 ",
-			"3": " 󰊴 ",
+			"2": "  ",
+			"3": "  ",
+			"4": " 󰅶 ",
+			"5": " 󰊴 ",
 			"default": " 󱓞 "
 		},
 		"persistent-workspaces": {
 			"1": "Develop",
-			"2": "Relax",
-			"3": "Game"
+			"2": "Develop",
+			"3": "Develop",
+			"4": "Relax",
+			"5": "Game"
 		},
 		"sort-by-number": true
 	},
