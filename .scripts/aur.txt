@@ -1,4 +1,3 @@
 tela-circle-icon-theme-all-git
 catppuccin-gtk-theme-macchiato
-cli-visualizer
 dotool
