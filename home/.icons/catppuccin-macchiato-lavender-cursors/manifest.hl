@@ -1,4 +1,4 @@
-name = catppuccin-macchiato-lavender
+name = Catppuccin Macchiato Lavender
 description = based on Volantes Cursors
-version = "v1.0.1" # x-release-please-version
+version = "v1.0.2" # x-release-please-version
 cursors_directory = hyprcursors
