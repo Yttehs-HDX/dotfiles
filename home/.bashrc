@@ -106,7 +106,6 @@ kitten-diff() {
 
 export PATH=$PATH:~/.local/bin
 export PATH=$PATH:~/.cargo/bin
-export PATH=$PATH:~/Android/Sdk/emulator
 export PATH=$PATH:~/.dotnet/tools
 
 source "$HOME"/.local/bin/env
