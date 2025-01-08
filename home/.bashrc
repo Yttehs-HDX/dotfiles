@@ -89,7 +89,7 @@ frp-status() {
 }
 
 pdf() {
-	pdftotext "$1" - | bat
+	pdftotext "$1" - | "$PAGER"
 }
 
 content() { # list all files recursively whose content contains the given string
