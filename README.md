@@ -34,7 +34,7 @@ make
 
 ## Errate
 
-If I use content from your project, please note in [issue](https://github.com/Yttehs-HDX/dotfiles/issues/new?template=Blank+issue).
+If I use content from your project, please note in [issues](https://github.com/Yttehs-HDX/dotfiles/issues/new?template=Blank+issue).
 
 ## License
 
