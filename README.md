@@ -1,25 +1,23 @@
 # Dotfiles
 
-Dotfiles in ArchLinux (Hyprland)
+Dotfiles on ArchLinux (Hyprland)
 
 ![hyprland](Screenshot.png)
 
 ## Features
 
 - [Hyprland](config/hypr)
-
 - [Kitty](config/kitty)
-
 - [Waybar](config/waybar)
-
 - [NeoVim](config/nvim)
+- ...
 
 ## Usage
 
 0. Install dependencies
 
 ```bash
-sudo pacman -S git python-toml
+sudo pacman -S git
 ```
 
 1. Clone the repo
