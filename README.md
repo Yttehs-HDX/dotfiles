@@ -24,7 +24,6 @@ sudo pacman -S git python-toml
 
 1. Clone the repo
 
-
 ```bash
 git clone https://github.com/Yttehs-HDX/dotfiles.git ~/.dotfiles
 ```
@@ -34,6 +33,10 @@ git clone https://github.com/Yttehs-HDX/dotfiles.git ~/.dotfiles
 ```bash
 make
 ```
+
+## Errate
+
+If I use content from your project, please note in [issue](https://github.com/Yttehs-HDX/dotfiles/issues/new?template=Blank+issue).
 
 ## License
 
