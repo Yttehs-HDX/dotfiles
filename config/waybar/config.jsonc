@@ -46,7 +46,7 @@
 		"tooltip": false,
 		"exec": "playerctl metadata --format='{{ title }}'",
 		"on-click": "playerctl play-pause",
-		"max-length": 20
+		"max-length": 50
 	},
 
 	// modules-right
