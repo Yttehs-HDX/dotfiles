@@ -9,7 +9,7 @@
     grey: #6e738d;
 
     width: 600;
-    font: "SF Pro 14";
+    font: "SF Pro 14.5";
 }
 
 element-text, element-icon , mode-switcher {
