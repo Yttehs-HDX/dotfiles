@@ -104,8 +104,4 @@ kitten-diff() {
 	kitty +kitten diff "$1" "$2"
 }
 
-export PATH=$PATH:~/.local/bin
-export PATH=$PATH:~/.cargo/bin
-export PATH=$PATH:~/.dotnet/tools
-
 source "$HOME"/.local/bin/env
