@@ -1,0 +1,44 @@
+#!/bin/bash
+
+# +-------------------+
+# |   ___ _ ____   __ |
+# |  / _ \ '_ \ \ / / |
+# | |  __/ | | \ V /  |
+# |  \___|_| |_|\_/   |
+# +-------------------+
+
+### Global Environment Variables
+
+# Python Tools
+export PATH=$PATH:~/.local/bin
+
+# Rust Cargo Tools
+export PATH=$PATH:~/.cargo/bin
+
+# Dotnet Tools
+export PATH=$PATH:~/.dotnet/tools
+
+# Android Emulator
+export ANDROID_HOME="$HOME"/Android/Sdk
+export PATH="$PATH":"$ANDROID_HOME"/emulator
+export PATH="$PATH":"$ANDROID_HOME"/platform-tools
+
+
+### Custom Environment Variables
+
+PROJECT_HOME="$HOME/Project"
+
+# JetBrains IDEs Launcher
+export PATH="$PATH":"$PROJECT_HOME"/.tools/JetBrains/scripts
+
+# daolisay cli tool
+export PATH="$PATH":"$PROJECT_HOME"/Shetty/daolisay/bin
+
+# kotlin Native Compiler
+# export PATH="$PATH":"$PROJECT_HOME"/.tools/kotlin-native/bin
+
+# LoongArch64 GCC Toolchain
+# export PATH="$PATH":"$PROJECT_HOME"/.tools/loongarch64-gcc/bin
+
+# LoongArch64 QEMU
+# export PATH="$PATH":"$PROJECT_HOME"/.tools/qemu-system-loongarch64
