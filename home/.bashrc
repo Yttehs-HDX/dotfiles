@@ -36,9 +36,9 @@ alias ai='a -i'
 alias am='a -m'
 alias draw='tgpt -img'
 
-# kitty
-alias diff='kitten-diff'
-alias icat='kitten-icat'
+# gh
+alias whats='gh copilot explain'
+alias howto='gh copilot suggest'
 
 # alias
 alias c='clear'
@@ -50,8 +50,6 @@ alias lll='eza -l --icons --git'
 alias ran='ranger'
 alias df='duf'
 alias top='htop'
-alias whats='gh copilot explain'
-alias howto='gh copilot suggest'
 alias timeshift='sudo timeshift'
 alias aafire='aafire -driver curses'
 alias swaylock='swaylock --screenshots --clock --indicator --indicator-radius 100 --indicator-thickness 7 --effect-blur 25x25 --effect-vignette 0.5:0.5 --ring-color b7bdf8 --key-hl-color f5bde6'
@@ -96,11 +94,11 @@ content() { # list all files recursively whose content contains the given string
 	find . -type f -exec /bin/grep --color=auto -l "$1" {} +
 }
 
-kitten-icat() {
+icat() {
 	kitty +kitten icat "$1"
 }
 
-kitten-diff() {
+diffkitty() {
 	kitty +kitten diff "$1" "$2"
 }
 
