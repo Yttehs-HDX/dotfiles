@@ -30,3 +30,4 @@ ranger
 swaync
 tmux
 nwg-look
+tela-circle-icon-theme-dracula
