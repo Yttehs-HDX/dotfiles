@@ -34,6 +34,9 @@ export PATH="$PATH":"$PROJECT_HOME"/.tools/JetBrains/scripts
 # daolisay cli tool
 export PATH="$PATH":"$PROJECT_HOME"/Shetty/daolisay/bin
 
+# emcc
+source "$PROJECT_HOME"/.tools/emsdk/emsdk_env.sh 2> /dev/null
+
 # kotlin Native Compiler
 # export PATH="$PATH":"$PROJECT_HOME"/.tools/kotlin-native/bin
 
