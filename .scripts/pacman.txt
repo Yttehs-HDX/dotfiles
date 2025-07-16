@@ -22,7 +22,6 @@ brightnessctl
 grim
 slurp
 kvantum
-neofetch
 neovim
 qt5ct
 qt6ct
