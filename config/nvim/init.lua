@@ -27,7 +27,7 @@ opt.tabstop = 2
 opt.softtabstop = 2
 opt.shiftwidth = 2
 
--- Disable line wrapping
-opt.wrap = false
+-- Enable line wrapping
+opt.wrap = true
 
 require('lazy').setup { import = 'plugins' }
