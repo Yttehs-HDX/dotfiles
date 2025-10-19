@@ -1,4 +1,6 @@
-# Dotfiles
+# [Deprecated] Dotfiles
+
+> Now I use NixOS, see [flake config](https://github.com/Yttehs-HDX/NixOS-flake-config).
 
 Dotfiles on ArchLinux (Hyprland)
 
